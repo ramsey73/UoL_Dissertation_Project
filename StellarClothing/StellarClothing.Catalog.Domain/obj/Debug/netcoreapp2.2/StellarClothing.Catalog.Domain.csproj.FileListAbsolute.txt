@@ -1,0 +1,12 @@
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.deps.json
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.pdb
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\bin\Debug\netcoreapp2.2\StellarClothing.BuildingBlocks.Domain.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\bin\Debug\netcoreapp2.2\StellarClothing.BuildingBlocks.Domain.pdb
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.csprojAssemblyReference.cache
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.AssemblyInfoInputs.cache
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.AssemblyInfo.cs
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.csproj.CopyComplete
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Domain\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.pdb

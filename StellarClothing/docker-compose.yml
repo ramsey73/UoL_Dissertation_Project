@@ -1,0 +1,199 @@
+version: '3.4'
+
+services:
+
+  # Redis Cache
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    container_name: redis
+
+  # Rabbit MQ
+  rabbit:
+    image: rabbitmq:3.6-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    container_name: rabbit
+  
+  # SQL Server for Linux
+  sqlserver:
+    image: sqlserver
+    build:
+      context: ./Database
+      dockerfile: Dockerfile
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Liverpool1q2w
+    container_name: sqlserver
+
+  
+  # Admin Microservice
+  stellarclothing.admin.api:
+    image: stellarclothing/admin.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Admin.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8086:80"
+    depends_on: 
+      - rabbit
+      - sqlserver
+
+  # Catalog Microservice
+  stellarclothing.catalog.api:
+    image: stellarclothing/catalog.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Catalog.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8085:80"
+    depends_on: 
+      - rabbit
+      - sqlserver
+
+  # Identity Microservice
+  stellarclothing.identity.api:
+    image: stellarclothing/identity.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Identity.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8087:80"
+    depends_on: 
+      - rabbit
+      - sqlserver
+
+  # Customer Microservice
+  stellarclothing.customer.api:
+    image: stellarclothing/customer.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Customer.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8082:80"
+    depends_on: 
+      - rabbit
+      - sqlserver
+
+  
+  # Inventory Microservice
+  stellarclothing.inventory.api:
+    image: stellarclothing/inventory.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Inventory.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8088:80"
+    depends_on: 
+      - rabbit
+      - sqlserver
+
+  # Payment Microservice
+  stellarclothing.payment.host:
+    image: stellarclothing/payment.host
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Payment.Host/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    depends_on: 
+      - rabbit
+
+# Shopping Cart Microservice
+  stellarclothing.shoppingcart.api:
+    image: stellarclothing/shoppingcart.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.ShoppingCart.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8084:80"
+    depends_on: 
+      - rabbit
+      - sqlserver
+
+# Ordering Microservice
+  stellarclothing.ordering.api:
+    image: stellarclothing/ordering.api
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Ordering.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    ports:
+      - "8083:80"
+    depends_on: 
+      - rabbit
+      - redis
+
+  # Shipping Microservice
+  stellarclothing.shipping.host:
+    image: stellarclothing/shipping.host
+    build:
+      context: .
+      dockerfile: Services/StellarClothing.Shipping.Host/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    depends_on: 
+      - rabbit
+
+
+  stellarclothing.webapp:
+    image: stellarclothing/webapp
+    build:
+      context: .
+      dockerfile: Web/StellarClothing.WebApp/Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    depends_on: 
+      - stellarclothing.catalog.api
+      - stellarclothing.customers.api
+      - stellarclothing.shoppingcart.api
+      - stellarclothing.ordering.api
+      - stellarclothing.inventory.api
+      - stellarclothing.Identity.api
+
+  stellarclothing.adminapp:
+    image: stellarclothing/admin
+    build:
+      context: .
+      dockerfile: Web/StellarClothing.AdminApp/Dockerfile
+    ports:
+      - "8090:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ORCHESTRATOR=Docker
+    depends_on: 
+      - stellarclothing.catalog.api
+      - stellarclothing.customers.api
+      - stellarclothing.shoppingcart.api
+      - stellarclothing.ordering.api
+      - stellarclothing.inventory.api
+      - stellarclothing.Identity.api

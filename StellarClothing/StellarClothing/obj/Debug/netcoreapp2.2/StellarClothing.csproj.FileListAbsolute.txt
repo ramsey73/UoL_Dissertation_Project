@@ -1,0 +1,17 @@
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.csproj.CoreCompileInputs.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.AssemblyInfoInputs.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.AssemblyInfo.cs
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\StellarClothing.deps.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\StellarClothing.runtimeconfig.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\StellarClothing.runtimeconfig.dev.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\StellarClothing.dll
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\bin\Debug\netcoreapp2.2\StellarClothing.pdb
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.csprojAssemblyReference.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.RazorAssemblyInfo.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.RazorAssemblyInfo.cs
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.RazorTargetAssemblyInfo.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.dll
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\StellarClothing\obj\Debug\netcoreapp2.2\StellarClothing.pdb

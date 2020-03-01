@@ -1,0 +1,15 @@
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\web.config
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\appsettings.Development.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\appsettings.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\Properties\launchSettings.json
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.Catalog.Api.dll
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.Catalog.Infrastructure.dll
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.Catalog.Domain.dll
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.BuildingBlocks.Domain.dll
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.Catalog.Api.pdb
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.Catalog.Infrastructure.pdb
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.Catalog.Domain.pdb
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\bin\Debug\StellarClothing.BuildingBlocks.Domain.pdb
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Ramazan_Ay\Source\Repos\stellar-e-commerce\StellarClothing\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.deps.json
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.pdb
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.BuildingBlocks.Domain.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.Catalog.Domain.pdb
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\bin\Debug\netcoreapp2.2\StellarClothing.BuildingBlocks.Domain.pdb
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.AssemblyInfo.cs
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.csproj.CopyComplete
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.dll
+C:\Users\Ramazan_Ay\source\repos\stellar-e-commerce\StellarClothing\StellarClothing.Catalog.Infrastructure\obj\Debug\netcoreapp2.2\StellarClothing.Catalog.Infrastructure.pdb
